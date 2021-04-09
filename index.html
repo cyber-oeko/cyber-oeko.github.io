@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5d50509752ac461fbc2fe7c39557776c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5d50509752ac461fbc2fe7c39557776c" ></div>
+        
+</body>
+<script>    
+    
+            var map_5d50509752ac461fbc2fe7c39557776c = L.map(
+                "map_5d50509752ac461fbc2fe7c39557776c",
+                {
+                    center: [52.125, 11.63],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98ecdac944854e38908f59d5348e9791 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5d50509752ac461fbc2fe7c39557776c);
+        
+    
+            var feature_group_5716718b37214f109945c29bb6af57d2 = L.featureGroup(
+                {}
+            ).addTo(map_5d50509752ac461fbc2fe7c39557776c);
+        
+    
+            var marker_a925ca023515492dbca86c1ac1f193b0 = L.marker(
+                [52.13017516, 11.61142773],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_a60d179308324aa6b8436ac31c427d49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a925ca023515492dbca86c1ac1f193b0.setIcon(icon_a60d179308324aa6b8436ac31c427d49);
+        
+    
+        var popup_76323007231a48a1b37c0fe38606b735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c54574c238814c2e9eb96f519a82343b = $(`<div id="html_c54574c238814c2e9eb96f519a82343b" style="width: 100.0%; height: 100.0%;"><b>Adler-Apotheke Stadtfeld</b><br>Frau Kositzki / Herr Fiedler info@adler227.de T: 0391 / 7351911</div>`)[0];
+            popup_76323007231a48a1b37c0fe38606b735.setContent(html_c54574c238814c2e9eb96f519a82343b);
+        
+
+        marker_a925ca023515492dbca86c1ac1f193b0.bindPopup(popup_76323007231a48a1b37c0fe38606b735)
+        ;
+
+        
+    
+    
+            var marker_5dd962b7c08b49bc931cc9542b24dbce = L.marker(
+                [52.13703036, 11.63980543],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_6397d40320424c43bbee3a9b43635992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5dd962b7c08b49bc931cc9542b24dbce.setIcon(icon_6397d40320424c43bbee3a9b43635992);
+        
+    
+        var popup_330e455fb5c64506b02ff2f9367b3b87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de199d86239d4fdebd8e83c36dbbe8f2 = $(`<div id="html_de199d86239d4fdebd8e83c36dbbe8f2" style="width: 100.0%; height: 100.0%;"><b>Apotheke am Theater</b><br>www.corona-test-magdeburg.de kontakt@apo-theatermd.de T: 0391 / 5419671</div>`)[0];
+            popup_330e455fb5c64506b02ff2f9367b3b87.setContent(html_de199d86239d4fdebd8e83c36dbbe8f2);
+        
+
+        marker_5dd962b7c08b49bc931cc9542b24dbce.bindPopup(popup_330e455fb5c64506b02ff2f9367b3b87)
+        ;
+
+        
+    
+    
+            var marker_d0984b22e47a432b88282b3468194bec = L.marker(
+                [52.13683286, 11.6466187],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_1bd810f58be64b17a0d2af4d4088a7f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d0984b22e47a432b88282b3468194bec.setIcon(icon_1bd810f58be64b17a0d2af4d4088a7f4);
+        
+    
+        var popup_2e3aae308c7b4834bd06e070a109daad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d33a213e41a44c1aa9c3c871c366b09f = $(`<div id="html_d33a213e41a44c1aa9c3c871c366b09f" style="width: 100.0%; height: 100.0%;"><b>Apotheke am Tränsberg</b><br>T: 0391 / 5415131</div>`)[0];
+            popup_2e3aae308c7b4834bd06e070a109daad.setContent(html_d33a213e41a44c1aa9c3c871c366b09f);
+        
+
+        marker_d0984b22e47a432b88282b3468194bec.bindPopup(popup_2e3aae308c7b4834bd06e070a109daad)
+        ;
+
+        
+    
+    
+            var marker_41305224f44b449a84143f2fafb50f26 = L.marker(
+                [52.08987878, 11.61387723],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_2c8829654e614bdf84d270083ece3040 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_41305224f44b449a84143f2fafb50f26.setIcon(icon_2c8829654e614bdf84d270083ece3040);
+        
+    
+        var popup_730cc3d7cd714de3b208581f46ded9fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fbef4ec8b484aaf827710aacf5440ee = $(`<div id="html_3fbef4ec8b484aaf827710aacf5440ee" style="width: 100.0%; height: 100.0%;"><b>Die Herz Apotheke Reform</b><br>Frau Aydogan www.apo-schnelltest.de/kosmosapotheken T: 0391 / 6116113</div>`)[0];
+            popup_730cc3d7cd714de3b208581f46ded9fe.setContent(html_3fbef4ec8b484aaf827710aacf5440ee);
+        
+
+        marker_41305224f44b449a84143f2fafb50f26.bindPopup(popup_730cc3d7cd714de3b208581f46ded9fe)
+        ;
+
+        
+    
+    
+            var marker_225841516bb94be8bb92a6ae9f448dde = L.marker(
+                [52.08989477, 11.61386836],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_b1807f2d2a17463d9ad7e9a1a4cd77a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_225841516bb94be8bb92a6ae9f448dde.setIcon(icon_b1807f2d2a17463d9ad7e9a1a4cd77a0);
+        
+    
+        var popup_a63a99ec6b9a480c9e83376d58d4aa27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eb75dcf5f764afe867319ad0ab87df1 = $(`<div id="html_4eb75dcf5f764afe867319ad0ab87df1" style="width: 100.0%; height: 100.0%;"><b>Die Herz-Apotheke Reform</b><br>Frau Pohl T: 0172 / 2494829</div>`)[0];
+            popup_a63a99ec6b9a480c9e83376d58d4aa27.setContent(html_4eb75dcf5f764afe867319ad0ab87df1);
+        
+
+        marker_225841516bb94be8bb92a6ae9f448dde.bindPopup(popup_a63a99ec6b9a480c9e83376d58d4aa27)
+        ;
+
+        
+    
+    
+            var marker_f99ec801223444b9b1edc596c929bf50 = L.marker(
+                [52.09026728, 11.61160033],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_4e2a38f090064570af6a02961c20cf4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f99ec801223444b9b1edc596c929bf50.setIcon(icon_4e2a38f090064570af6a02961c20cf4d);
+        
+    
+        var popup_5d73906872624a1890189dd922e8d919 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0473ea6142164ee9b04a5e1d5fa531f0 = $(`<div id="html_0473ea6142164ee9b04a5e1d5fa531f0" style="width: 100.0%; height: 100.0%;"><b>Die Kosmos Apotheke Reform</b><br>Frau Spring www.apo-schnelltest.de/kosmosapotheken T: 0391 / 6119160</div>`)[0];
+            popup_5d73906872624a1890189dd922e8d919.setContent(html_0473ea6142164ee9b04a5e1d5fa531f0);
+        
+
+        marker_f99ec801223444b9b1edc596c929bf50.bindPopup(popup_5d73906872624a1890189dd922e8d919)
+        ;
+
+        
+    
+    
+            var marker_615ea0db17244167ab98672d2f67fd5c = L.marker(
+                [52.15800771, 11.63617263],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_d5fa7375f2ba4985bded593ef2282a45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_615ea0db17244167ab98672d2f67fd5c.setIcon(icon_d5fa7375f2ba4985bded593ef2282a45);
+        
+    
+        var popup_29c5c3f3a43e48d8a8076f49afe5238b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a7a1f6acbd14646a5cfad3539ae50b8 = $(`<div id="html_9a7a1f6acbd14646a5cfad3539ae50b8" style="width: 100.0%; height: 100.0%;"><b>Easy-Apotheke</b><br>Herr Aksu Lüebecker-strasse@easyapotheken.de www.kaiserottoapotheke.de T: 0391 / 28887570</div>`)[0];
+            popup_29c5c3f3a43e48d8a8076f49afe5238b.setContent(html_9a7a1f6acbd14646a5cfad3539ae50b8);
+        
+
+        marker_615ea0db17244167ab98672d2f67fd5c.bindPopup(popup_29c5c3f3a43e48d8a8076f49afe5238b)
+        ;
+
+        
+    
+    
+            var marker_f66704edb3594dee9c8759138970aeba = L.marker(
+                [52.138769, 11.63870793],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_35491001abcf4963a2c17bf126c31321 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f66704edb3594dee9c8759138970aeba.setIcon(icon_35491001abcf4963a2c17bf126c31321);
+        
+    
+        var popup_7c35eb653a714e0681d0ae532f9e5a72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a4ce28cdfb24607acb019f38a4f115d = $(`<div id="html_3a4ce28cdfb24607acb019f38a4f115d" style="width: 100.0%; height: 100.0%;"><b>Kaiser Otto Apotheke</b><br>Frau Pfeiffer info@kaiserottoapotheke.de www.kaiserottoapotheke.de T: 0391 / 55576740</div>`)[0];
+            popup_7c35eb653a714e0681d0ae532f9e5a72.setContent(html_3a4ce28cdfb24607acb019f38a4f115d);
+        
+
+        marker_f66704edb3594dee9c8759138970aeba.bindPopup(popup_7c35eb653a714e0681d0ae532f9e5a72)
+        ;
+
+        
+    
+    
+            var marker_764ee8aa50b541d19deff29e823cdcf2 = L.marker(
+                [52.1294105, 11.60113131],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_3b2f00c198184a1f9c4fe8b07d6bf004 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_764ee8aa50b541d19deff29e823cdcf2.setIcon(icon_3b2f00c198184a1f9c4fe8b07d6bf004);
+        
+    
+        var popup_9e459c1b9c3e4524a30d87c18ea40e6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4bea0e33364d86bf4716c813df0c9a = $(`<div id="html_0c4bea0e33364d86bf4716c813df0c9a" style="width: 100.0%; height: 100.0%;"><b>Orchideen-Apotheke</b><br>Frau Hoffmann info@orchideenapo.de www.kaiserottoapotheke.de T: 0391 / 736876</div>`)[0];
+            popup_9e459c1b9c3e4524a30d87c18ea40e6c.setContent(html_0c4bea0e33364d86bf4716c813df0c9a);
+        
+
+        marker_764ee8aa50b541d19deff29e823cdcf2.bindPopup(popup_9e459c1b9c3e4524a30d87c18ea40e6c)
+        ;
+
+        
+    
+    
+            var marker_49d860ca28bc42f9ada3e737b560cd4c = L.marker(
+                [52.12910026, 11.67072553],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_2796b1262cec4a23876d59c179660fcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49d860ca28bc42f9ada3e737b560cd4c.setIcon(icon_2796b1262cec4a23876d59c179660fcd);
+        
+    
+        var popup_d21c6dafa64d4316b61fda74ae6aa126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac4aa0d3f184470dbe087fbca1d5695b = $(`<div id="html_ac4aa0d3f184470dbe087fbca1d5695b" style="width: 100.0%; height: 100.0%;"><b>Ost-Apotheke</b><br>Frau Isenhuth info@ostapotheke.net</div>`)[0];
+            popup_d21c6dafa64d4316b61fda74ae6aa126.setContent(html_ac4aa0d3f184470dbe087fbca1d5695b);
+        
+
+        marker_49d860ca28bc42f9ada3e737b560cd4c.bindPopup(popup_d21c6dafa64d4316b61fda74ae6aa126)
+        ;
+
+        
+    
+    
+            var marker_ebc7fa11048c4b5bb343b994b896755a = L.marker(
+                [52.13452202, 11.63782648],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_f58714fd1d3c44b8bb61f2323d647159 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ebc7fa11048c4b5bb343b994b896755a.setIcon(icon_f58714fd1d3c44b8bb61f2323d647159);
+        
+    
+        var popup_6d0a9cb7586f4944bc58bdeb3bbaed51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84b2776703ef4e15980d8060c942470c = $(`<div id="html_84b2776703ef4e15980d8060c942470c" style="width: 100.0%; height: 100.0%;"><b>Pluspunkt-Apotheke Breiter Weg</b><br>T: 0391/555 640 https://app.no-q.info/standort-der-testung-pluspunkt/checkins#/493/2021-03-08</div>`)[0];
+            popup_6d0a9cb7586f4944bc58bdeb3bbaed51.setContent(html_84b2776703ef4e15980d8060c942470c);
+        
+
+        marker_ebc7fa11048c4b5bb343b994b896755a.bindPopup(popup_6d0a9cb7586f4944bc58bdeb3bbaed51)
+        ;
+
+        
+    
+    
+            var marker_fb55a1a4e40a433e9eb0b8d3376b0844 = L.marker(
+                [52.13026137, 11.63764304],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_01843fd324c94118af8a930f990d8fcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fb55a1a4e40a433e9eb0b8d3376b0844.setIcon(icon_01843fd324c94118af8a930f990d8fcc);
+        
+    
+        var popup_9f083f51f64943b5a663575d9355aeb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbb321e9d318490c9c3ce4249f67053e = $(`<div id="html_bbb321e9d318490c9c3ce4249f67053e" style="width: 100.0%; height: 100.0%;"><b>Pluspunkt-Apotheke im Allee-Center</b><br>T: 0391/ 562 081 4 https://app.no-q.info/standort-der-testung-pluspunkt/checkins#/493/2021-03-08</div>`)[0];
+            popup_9f083f51f64943b5a663575d9355aeb9.setContent(html_bbb321e9d318490c9c3ce4249f67053e);
+        
+
+        marker_fb55a1a4e40a433e9eb0b8d3376b0844.bindPopup(popup_9f083f51f64943b5a663575d9355aeb9)
+        ;
+
+        
+    
+    
+            var marker_b40f20a400b945bba02a10e2886f8005 = L.marker(
+                [52.12107541, 11.62870639],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_06a2fe7e5c3042e0b2c119f8166de246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b40f20a400b945bba02a10e2886f8005.setIcon(icon_06a2fe7e5c3042e0b2c119f8166de246);
+        
+    
+        var popup_3f42e2bef9c749ecbb5965d0cbda4fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b07d80a8941549f782c14e16759baaff = $(`<div id="html_b07d80a8941549f782c14e16759baaff" style="width: 100.0%; height: 100.0%;"><b>Stern-Apotheke am Hasselbachplatz</b><br>T: 0391/ 620 810 0</div>`)[0];
+            popup_3f42e2bef9c749ecbb5965d0cbda4fd4.setContent(html_b07d80a8941549f782c14e16759baaff);
+        
+
+        marker_b40f20a400b945bba02a10e2886f8005.bindPopup(popup_3f42e2bef9c749ecbb5965d0cbda4fd4)
+        ;
+
+        
+    
+    
+            var marker_1715e5102dee462d8bc961a5acac84d9 = L.marker(
+                [52.09259354, 11.62120775],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_d844ce07e2cb4c21af58cbe73deb6c61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1715e5102dee462d8bc961a5acac84d9.setIcon(icon_d844ce07e2cb4c21af58cbe73deb6c61);
+        
+    
+        var popup_5f1c9ebea220464ead4af71660f9fe96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdf7c3eb717d42d890b0165af67d23dc = $(`<div id="html_fdf7c3eb717d42d890b0165af67d23dc" style="width: 100.0%; height: 100.0%;"><b>Victoria Apotheke</b><br>T: 0391/ 622 785 8 service@victoria-apotheke.net</div>`)[0];
+            popup_5f1c9ebea220464ead4af71660f9fe96.setContent(html_fdf7c3eb717d42d890b0165af67d23dc);
+        
+
+        marker_1715e5102dee462d8bc961a5acac84d9.bindPopup(popup_5f1c9ebea220464ead4af71660f9fe96)
+        ;
+
+        
+    
+    
+            var marker_806eae426cba499aad13b04cfc7241b9 = L.marker(
+                [52.13886911, 11.62512788],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_ef7ecc0ed64d44b083e456f25420dd9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_806eae426cba499aad13b04cfc7241b9.setIcon(icon_ef7ecc0ed64d44b083e456f25420dd9f);
+        
+    
+        var popup_58d8adfac4044fbd915c67d00980d049 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa3d326e459c435088d3a50ac91e04e4 = $(`<div id="html_fa3d326e459c435088d3a50ac91e04e4" style="width: 100.0%; height: 100.0%;"><b>Westernplan-Apotheke</b><br>Frau Michael info@westernplanapo.de T: 0391 / 7348066</div>`)[0];
+            popup_58d8adfac4044fbd915c67d00980d049.setContent(html_fa3d326e459c435088d3a50ac91e04e4);
+        
+
+        marker_806eae426cba499aad13b04cfc7241b9.bindPopup(popup_58d8adfac4044fbd915c67d00980d049)
+        ;
+
+        
+    
+    
+            var marker_51a845d5227444b8a8bdbe6a397ee936 = L.marker(
+                [52.12951349, 11.6063925],
+                {}
+            ).addTo(feature_group_5716718b37214f109945c29bb6af57d2);
+        
+    
+            var icon_2705f30648c6439685136ffaf13fee5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51a845d5227444b8a8bdbe6a397ee936.setIcon(icon_2705f30648c6439685136ffaf13fee5a);
+        
+    
+        var popup_efea3673634d4633af69b8ac949b7a44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d3d4909775749ee8ae70291dca429d0 = $(`<div id="html_5d3d4909775749ee8ae70291dca429d0" style="width: 100.0%; height: 100.0%;"><b>maxxipharm Apotheke</b><br>Herr Kammer, Frau Hampel T: 0391/ 506 602 10</div>`)[0];
+            popup_efea3673634d4633af69b8ac949b7a44.setContent(html_5d3d4909775749ee8ae70291dca429d0);
+        
+
+        marker_51a845d5227444b8a8bdbe6a397ee936.bindPopup(popup_efea3673634d4633af69b8ac949b7a44)
+        ;
+
+        
+    
+    
+            var layer_control_e6f357ae2aa0451fa13a38315385a8f5 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_98ecdac944854e38908f59d5348e9791,
+                },
+                overlays :  {
+                    "Testangebote" : feature_group_5716718b37214f109945c29bb6af57d2,
+                },
+            };
+            L.control.layers(
+                layer_control_e6f357ae2aa0451fa13a38315385a8f5.base_layers,
+                layer_control_e6f357ae2aa0451fa13a38315385a8f5.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_5d50509752ac461fbc2fe7c39557776c);
+        
+</script>
